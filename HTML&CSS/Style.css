@@ -1,0 +1,47 @@
+*
+{
+padding: 0;
+margin: 0;
+}
+body
+{
+background-image: url(MenF.jpg);
+background-size: cover;
+background-position: top;
+box-sizing: border-box;
+font-family: sans-serif;
+}
+.menu-bar
+{
+background-color: darkorange;
+text-align: center;
+}
+.menu-bar ul
+{
+display: inline-flex;
+list-style: none;
+color: gray;
+}
+.menu-bar ul li
+{
+width: 120px;
+margin: 15px;
+padding: 15px;
+}
+.menu-bar ul li a
+{
+text-decoration: none;
+color: gray;
+}
+.active, .menu-bar ul li:hover a
+{
+background: red;
+border: 2px solid black;
+border-radius: 3px;
+}
+.active, .menu-bar ul li:hover a.active
+{
+background: whitesmoke;
+border: 2px solid black;
+border-radius: 3px;
+}
