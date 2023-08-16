@@ -38,7 +38,7 @@
 
     // Fetching the data and displaying
     while ($row = pg_fetch_assoc($result)) {
-        $temperature = $row['indextemperature'];
+        $indextemperature = $row['indextemperature'];
         echo "<p>indextemperature: $indextemperature</p>";
     }
 
