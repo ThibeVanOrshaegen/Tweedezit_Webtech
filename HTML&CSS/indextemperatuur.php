@@ -9,7 +9,7 @@
 <body>
 <div class="menu-bar">
     <ul>
-        <li class="active"><a href="/api/v1/indextemperature.php">Go to Temperature</a></li>
+        <li class="active"><a href="/api/v1/indextemperatuur.php">Go to Temperature</a></li>
     </ul>
 </div>
 
@@ -29,7 +29,7 @@
     }
 
     // Performing SQL query
-    $query = "SELECT indextemperature FROM SendData";
+    $query = "SELECT indextemperatuur FROM SendData";
     $result = pg_query($conn, $query);
 
     if (!$result) {
@@ -38,8 +38,8 @@
 
     // Fetching the data and displaying
     while ($row = pg_fetch_assoc($result)) {
-        $indextemperature = $row['indextemperature'];
-        echo "<p>indextemperature: $indextemperature</p>";
+        $indextemperatuur = $row['indextemperatuur'];
+        echo "<p>indextemperatuur: $indextemperatuur</p>";
     }
 
     // Closing connection
