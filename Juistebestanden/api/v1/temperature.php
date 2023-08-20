@@ -25,9 +25,9 @@ $currentTimestamp = date('Y-m-d H:i:s');
 // Connect to the PostgreSQL database
 $host = 'localhost';
 $port = 5432;
-$dbname = 'postgres';
-$user = 'postgres';
-$password = 'iDsg.1002';
+$dbname = '...';
+$user = '...';
+$password = '...';
 
 $conn = pg_connect("host=$host port=$port dbname=$dbname user=$user password=$password");
 
