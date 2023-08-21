@@ -1,0 +1,47 @@
+*
+{
+padding: 0;
+margin: 0;
+}
+body
+{
+background-image: url(Ledvierkanttt.jpg);
+background-size: cover;
+background-position: top;
+box-sizing: border-box;
+font-family: sans-serif;
+}
+.menu-bar
+{
+background-color: darkblue;
+text-align: center;
+}
+.menu-bar ul
+{
+display: inline-flex;
+list-style: none;
+color: #fff;
+}
+.menu-bar ul li
+{
+width: 120px;
+margin: 15px;
+padding: 15px;
+}
+.menu-bar ul li a
+{
+text-decoration: none;
+color: #fff;
+}
+.active, .menu-bar ul li:hover a
+{
+background: magenta;
+border: 2px solid magenta;
+border-radius: 3px;
+}
+.active, .menu-bar ul li:hover a.active
+{
+background: blue;
+border: 2px solid magenta;
+border-radius: 3px;
+}
